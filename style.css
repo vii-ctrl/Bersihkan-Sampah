@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(to bottom, #a8e6cf, #dcedc1);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 20px;
+}
+
+#gameArea {
+  width: 90%;
+  height: 400px;
+  border: 3px dashed #333;
+  margin: 20px auto;
+  position: relative;
+  background-color: #ffff;
+  overflow: hidden;
+}
+
+.trash {
+  position: absolute;
+  font-size: 30px;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+.trash:hover {
+  transform: scale(1.2);
+}
